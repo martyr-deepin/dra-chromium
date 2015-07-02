@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+mv -v /usr/lib/dra/chromium/chromium /usr/lib/dra/chromium/chrome
+chmod -v 0755 /usr/lib/dra/chromium/chrome
+# Update chrome-sandbox permission, suid
+chmod -v 4755 /usr/lib/dra/chromium/chrome-sandbox
+
+exit 0

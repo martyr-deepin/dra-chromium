@@ -1,4 +1,23 @@
 #!/usr/bin/make -f
 
+DEB_BUILD_ARCH ?= $(shell dpkg-architecture -qDEB_BUILD_ARCH)
+	
 %:
 	dh ${@}
+override_dh_strip:
+
+override_dh_install:
+	mkdir -p debian/dra-chromium/usr/lib/dra/chromium
+ifeq ($(DEB_BUILD_ARCH),amd64)
+	cp -r chromium.amd64/*   debian/dra-chromium/usr/lib/dra/chromium/
+else
+	cp -r chromium.i386/*   debian/dra-chromium/usr/lib/dra/chromium/ 
+endif
+override_dh_shlibdeps:
+
+
+
+
+
+
+
