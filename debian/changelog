@@ -1,4 +1,4 @@
-dra-chromium (1.1.0) unstable; urgency=medium
+dra-chromium (1.1) unstable; urgency=medium
 
   * Update filenames
   * Add xdg-utils
