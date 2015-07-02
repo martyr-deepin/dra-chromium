@@ -8,6 +8,5 @@ Homepage: http://www.linuxdeepin.com/
 
 Package: dra-chromium
 Architecture: i386 amd64
-Maintainer: Xu Shaohua <xushaohua@linuxdeepin.com>
 Depends: libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.15), libcairo2 (>= 1.6.0), libcups2 (>= 1.4.0), libdbus-1-3 (>= 1.1.4), libexpat1 (>= 2.0.1), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.3.9), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgnome-keyring0 (>= 3.2.2-2~), libgtk2.0-0 (>= 2.24.0), libharfbuzz0b (>= 0.9.11), libjpeg62-turbo (>= 1.3.1), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libnss3 (>= 2:3.14.3), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpci3 (>= 1:3.2.1-1), libsnappy1, libspeechd2 (>= 0.7.1), libspeex1 (>= 1.2~beta3-1), libsrtp0, libstdc++6 (>= 4.9), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3 (>= 1:5.0), libxi6 (>= 2:1.2.99.4), libxml2 (>= 2.7.4), libxrandr2 (>= 2:1.2.99.2), libxrender1, libxslt1.1 (>= 1.1.25), libxss1, libxtst6, x11-utils, xdg-utils
 Description: Customized chromium used in Deepin Remote Assistance
